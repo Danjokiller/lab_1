@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    text-align: center;
+    color: #5A9BD5;
+    margin-top: 20px;
+}
+
+/* Estilo para los encabezados secundarios */
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para los párrafos */
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* Estilo para la imagen */
+.imagen {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #5A9BD5;
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: square;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    list-style-type: none; /* Elimina los puntos */
+    padding-left: 0; /* Elimina el espacio por defecto a la izquierda */
+}
+
+ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #5A9BD5; /* Puedes cambiar el color del enlace a tu gusto */
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Opcional: agrega un subrayado cuando el enlace es hover */
+}
+
+ol li {
+    margin: 10px 0;
+    text-align: center;
+}
+/* Centrar los números de la lista ordenada */
+ol {
+    list-style-position: inside; /* Asegura que los números estén dentro del contenedor */
+    padding-left: 0; /* Elimina el espacio por defecto a la izquierda */
+    text-align: center; /* Centra el contenido de cada elemento */
+}
+
+/* Opcional: Centrar el texto dentro de los elementos de lista */
+ol li {
+    display: inline-block; /* Hace que los elementos de lista se comporten como bloques en línea */
+    width: 100%; /* Hace que cada elemento ocupe el 100% del contenedor */
+    text-align: center; /* Alinea el texto dentro de cada elemento */
+}
+
+/* Estilo para la tabla */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #5A9BD5;
+    color: white;
+}
+
+/* Estilo para el formulario */
+form {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5A9BD5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4c8fa2;
+}
